@@ -3,7 +3,7 @@ numpy
 openpyxl
 matplotlib
 seaborn
-scikit-le-learn
+scikit-learn
 scipy
 mlxtend
 jupyter
