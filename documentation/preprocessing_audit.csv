@@ -1,0 +1,7 @@
+Step,Rule,Rows_Before,Rows_Removed,Rows_After,Reason
+C01,Remove additional exact duplicate rows,541909,5268,536641,"Exact duplicates could inflate quantities, revenue, frequency and association-rule support."
+C02,Exclude C-prefixed cancellation invoices,536641,9251,527390,Cancellation invoices do not represent positive customer purchases.
+C03,Retain rows with Quantity greater than zero,527390,1336,526054,Negative quantities represent returns or stock adjustments rather than positive purchases.
+C04,Retain rows with UnitPrice greater than zero,526054,1176,524878,Zero or negative prices cannot contribute valid positive purchase revenue.
+C05,Retain valid purchases with an identified CustomerID,524878,132186,392692,Customer segmentation requires a reliable customer identifier; missing IDs cannot be safely imputed.
+C06,Exclude reviewed administrative StockCodes from the primary customer merchandise dataset,392692,1542,391150,"Fees, postage, samples and manual accounting entries are not merchandise purchasing behaviour. An inclusive customer dataset is retained for sensitivity analysis."
