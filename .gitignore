@@ -216,3 +216,40 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Raw dataset - download separately using the link in README
+data/raw/*.xlsx
+data/raw/*.xls
+
+# Generated processed datasets
+data/processed/*.csv
+data/processed/*.xlsx
+data/processed/*.parquet
+
+# Generated outputs
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.jpeg
+outputs/tables/*.csv
+outputs/tables/*.xlsx
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Secrets and environment variables
+.env
