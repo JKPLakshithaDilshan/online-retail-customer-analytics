@@ -1,0 +1,12 @@
+Feature,Definition,Formula,Role,Expected Direction
+CustomerID,Unique identified customer,Grouping key,Identifier,Not applicable
+Recency,Days since the latest valid purchase,AnalysisDate - LastPurchaseDate,Core RFM,Lower values indicate more recent activity
+Frequency,Number of distinct valid purchase invoices,Count distinct InvoiceNo,Core RFM,Higher values indicate more frequent purchasing
+Monetary,Total valid merchandise purchase value,Sum of LineTotal,Core RFM,Higher values indicate greater historical spending
+TotalQuantity,Total merchandise units purchased,Sum of Quantity,Candidate behavioural feature,Higher values indicate greater purchase volume
+ProductDiversity,Number of distinct merchandise StockCodes purchased,Count distinct StockCode,Candidate behavioural feature,Higher values indicate broader product interests
+AverageOrderValue,Average monetary value per distinct invoice,Monetary / Frequency,Candidate behavioural feature,Higher values indicate larger average orders
+AverageBasketSize,Average number of distinct products per invoice,Mean distinct StockCodes per invoice,Candidate behavioural feature,Higher values indicate wider baskets
+TenureDays,Observed period between first and latest purchase,LastPurchaseDate - FirstPurchaseDate,Candidate behavioural feature,Higher values indicate longer observed relationships
+AverageDaysBetweenPurchases,Average observed interval between purchase invoices,TenureDays / (Frequency - 1),Diagnostic candidate feature,Lower values indicate shorter purchase intervals
+PrimaryCountry,Most frequent transaction country for the customer,Mode of Country,Profiling variable,Not automatically used for distance clustering
