@@ -1,0 +1,5 @@
+Dataset,Rows,Primary_User,Purpose,CustomerID_Required,Administrative_Codes
+customer_merchandise_transactions.csv,391150,Nirmani K.H.D.T.,Primary input for RFM and additional customer-feature engineering,Yes,Excluded
+merchandise_basket_transactions.csv,522568,Senaratne P.A.R.T.,Overall merchandise basket construction and later segment-specific association mining,No for overall rules; yes for segment-specific rules,Excluded
+returns_and_adjustments.csv,10587,Lakshitha and all members,"Separate return, cancellation and adjustment investigation",No,Retained where present
+administrative_transactions.csv,2310,Nirmani K.H.D.T.,Sensitivity analysis of administrative charges on customer monetary value,Not always available,Only administrative codes

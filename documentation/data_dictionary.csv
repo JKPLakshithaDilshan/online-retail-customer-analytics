@@ -1,0 +1,9 @@
+Variable,Description,Data Type,Analysis Role,Quality Issue
+InvoiceNo,Unique invoice identifier; C prefix indicates cancellation,Categorical identifier,Basket identifier,Contains cancellation invoices
+StockCode,Unique product or administrative item code,Categorical identifier,Product identifier,"Includes fees, postage and manual adjustment codes"
+Description,Human-readable product description,Categorical text,Product interpretation,"1,454 missing values and multiple descriptions for some StockCodes"
+Quantity,Number of units recorded for the invoice line,Integer,Transaction measure,Negative returns/adjustments and extreme wholesale values
+InvoiceDate,Date and time of invoice transaction,Datetime,Temporal and recency measure,December 2011 is incomplete
+UnitPrice,Price per unit in pounds sterling,Continuous numeric,Revenue calculation,"Zero, negative and extreme values"
+CustomerID,Unique customer identifier,Categorical identifier,Customer grouping key,"135,080 missing values; imported as float due to missingness"
+Country,Country associated with the customer transaction,Categorical,Geographic interpretation,Strong United Kingdom dominance
