@@ -1,0 +1,6 @@
+Feature_Set,Features,Transformation,Purpose,Downstream_Action
+Core RFM Raw,Recency; Frequency; Monetary,None,Interpretable primary raw feature reference,Scaling required before distance-based clustering
+Core RFM Log,Log_Recency; Log_Frequency; Log_Monetary,log1p,Primary clustering candidate with reduced skewness,Compare StandardScaler and RobustScaler
+Enhanced Raw,Recency; Frequency; Monetary; ProductDiversity; AverageBasketSize,None,Additional behavioural feature comparison,Scaling required before clustering
+Enhanced Log,Log_Recency; Log_Frequency; Log_Monetary; Log_ProductDiversity; Log_AverageBasketSize,log1p,Enhanced clustering candidate with reduced skewness,Compare against Core RFM Log
+Monetary Sensitivity,Monetary; AdministrativeValue; MonetaryWithAdministrative; MonetaryChangePercentage,None,Test administrative-value impact,Compare cluster stability where practical
