@@ -226,12 +226,13 @@ data/processed/*.csv
 data/processed/*.xlsx
 data/processed/*.parquet
 
-# Generated outputs
-outputs/figures/*.png
-outputs/figures/*.jpg
-outputs/figures/*.jpeg
+# Generated output tables remain excluded
 outputs/tables/*.csv
 outputs/tables/*.xlsx
+
+# Keep placeholder files
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
 
 # Jupyter temporary files
 .ipynb_checkpoints/
