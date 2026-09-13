@@ -1,0 +1,6 @@
+Cluster,Segment,Observed_Profile,Primary_Objective,Recommended_Action,Association_Mining_Priority
+1,Hibernating Low Value,"Long inactivity, mostly one purchase, low historical spending",Low-cost reactivation,"Use limited-cost win-back messages, seasonal reminders and broad popular-product offers",Low
+2,Recent Low Engagement,Recently active but mostly one purchase and low current spending,Encourage a second purchase,"Provide welcome follow-ups, complementary-product recommendations and second-order incentives",High
+3,At Risk Regular,Moderate historical purchasing but declining recency,Prevent customer loss,Use personalised reactivation campaigns based on previous categories and frequently paired products,High
+4,Loyal High Value,"Recent, frequent and high-value purchasing behaviour",Strengthen loyalty,"Offer loyalty rewards, early product access, cross-selling and relevant multi-product bundles",Very High
+5,Champions,"Most recent, most frequent and highest-value customers",Retain and reward,"Provide VIP treatment, premium bundles, exclusive offers and personalised high-value recommendations",Very High

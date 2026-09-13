@@ -1,0 +1,3 @@
+Dataset,Filename,Rows,Columns,File_Size_MB,SHA256,Produced_By,Downstream_Consumer
+customer_segment_assignments,customer_segment_assignments.csv,4334,4,0.16881847381591797,8753493be4c5ab3c79262530ad86805430f76605208e28bedef1e549f693a854,Palliyaguruge C.T. (IT24103655),Senaratne P.A.R.T. (IT24103526)
+customer_features_with_segments,customer_features_with_segments.csv,4334,16,0.5430440902709961,22e5017193a756ec278d161f881c39883926c69d3d5f9ccc7b62daa41c19040e,Palliyaguruge C.T. (IT24103655),Senaratne P.A.R.T. (IT24103526)
