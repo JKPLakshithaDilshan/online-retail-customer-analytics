@@ -1,0 +1,4 @@
+Dataset,Rows,Columns,Invoices,Customers,Products,Missing_CustomerIDs,Other_Missing_Values,Duplicate_Rows,Quality_Status
+Merchandise Basket Transactions,522568,9,19773.0,4334,3803.0,131418,0,0,Passed
+Customer Segment Assignments,4334,4,,4334,,0,0,0,Passed
+Segment-Specific Transactions,391150,11,18402.0,4334,3659.0,0,0,0,Passed

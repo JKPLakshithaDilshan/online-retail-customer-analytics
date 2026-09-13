@@ -1,0 +1,6 @@
+Segment,Invoices,Minimum_Support,Approximate_Minimum_Occurrences,Frequent_One_Itemsets,Frequent_Two_Itemsets,Frequent_Three_Itemsets,Total_Frequent_Itemsets
+Recent Low Engagement,1364,0.01466275659824047,20,404,46,1,451
+Hibernating Low Value,1365,0.014652014652014652,20,227,17,4,248
+At Risk Regular,3073,0.01,31,694,400,56,1150
+Loyal High Value,5417,0.01,55,694,439,161,1294
+Champions,7183,0.01,72,571,564,237,1372
